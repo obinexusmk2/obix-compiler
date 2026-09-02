@@ -1,9 +1,9 @@
-import { validateObixAST, DIAGNOSTIC_CODES, createScopeToken } from "@obinexusltd/obix-spec";
-import type { Diagnostic, DopIR, A11yModel, ObixAST, EmitMode } from "@obinexusltd/obix-spec";
-import { scanSections, parseTemplate, parseScript, parseStyles } from "@obinexusltd/obix-parser";
-import { analyzeTemplate } from "@obinexusltd/obix-template";
-import { scopeCss } from "@obinexusltd/obix-styles";
-import { analyzeA11y, hasBlockingA11yError } from "@obinexusltd/obix-accessibility";
+import { validateObixAST, DIAGNOSTIC_CODES, createScopeToken } from "obix-spec";
+import type { Diagnostic, DopIR, A11yModel, ObixAST, EmitMode } from "obix-spec";
+import { scanSections, parseTemplate, parseScript, parseStyles } from "obix-parser";
+import { analyzeTemplate } from "obix-template";
+import { scopeCss } from "obix-styles";
+import { analyzeA11y, hasBlockingA11yError } from "obix-accessibility";
 import { buildIR } from "./ir.js";
 import { emitModule } from "./emit.js";
 

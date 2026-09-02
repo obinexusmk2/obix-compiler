@@ -1,4 +1,4 @@
-import { SPEC_VERSION, LEVEL } from "@obinexusltd/obix-spec";
+import { SPEC_VERSION, LEVEL } from "obix-spec";
 import type {
   DopIR,
   ObixScriptModel,
@@ -7,7 +7,7 @@ import type {
   ActionSignature,
   DerivedSignature,
   EffectDescriptor,
-} from "@obinexusltd/obix-spec";
+} from "obix-spec";
 
 export interface BuildIROptions {
   name: string;

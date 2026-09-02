@@ -1,4 +1,4 @@
-import type { DopIR, ObixScriptModel, TemplateDescriptor, A11yModel } from "@obinexusltd/obix-spec";
+import type { DopIR, ObixScriptModel, TemplateDescriptor, A11yModel } from "obix-spec";
 export interface BuildIROptions {
     name: string;
     script: ObixScriptModel;

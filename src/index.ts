@@ -1,9 +1,9 @@
 /**
- * @obinexusltd/obix-compiler
+ * obix-compiler
  *
  * source -> sections -> AST -> semantic AST -> canonical DOP IR -> ES6 emit.
  *
- * Accessibility analysis (@obinexusltd/obix-accessibility) is a HARD, normal
+ * Accessibility analysis (obix-accessibility) is a HARD, normal
  * dependency. It runs BEFORE emit and an a11y error blocks emit. There is no
  * supported mode equivalent to `--no-a11y`.
  */

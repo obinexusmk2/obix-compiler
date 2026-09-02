@@ -6,15 +6,15 @@ import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { fileURLToPath } from "node:url";
 import { compile } from "../dist/index.js";
-import { referenceFold } from "@obinexusltd/obix-validator";
-import { checkEquivalence } from "@obinexusltd/obix-test";
+import { referenceFold } from "obix-validator";
+import { checkEquivalence } from "obix-equivalence";
 
 const timerSrc = readFileSync(
   fileURLToPath(new URL("../../obix-timer/fixture/Timer.obix", import.meta.url)),
   "utf8",
 ).replace(/\r\n/g, "\n");
 
-const irUrl = import.meta.resolve("@obinexusltd/obix-ir");
+const irUrl = import.meta.resolve("obix-ir");
 
 test("compile(Timer.obix) succeeds and produces IR + code + a11y model", () => {
   const r = compile(timerSrc, { path: "Timer.obix", irImport: irUrl });

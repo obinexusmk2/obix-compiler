@@ -6,6 +6,6 @@ export { buildIR } from "./ir.js";
 export declare function compileFile(path: string, options?: Omit<CompileOptions, "path">): CompileResult;
 export declare function checkSource(source: string, path?: string): {
     ok: boolean;
-    diagnostics: import("@obinexusltd/obix-spec").Diagnostic[];
+    diagnostics: import("obix-spec").Diagnostic[];
 };
 //# sourceMappingURL=index.d.ts.map

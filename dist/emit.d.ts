@@ -1,4 +1,4 @@
-import type { DopIR, EmitMode, ObixScriptModel } from "@obinexusltd/obix-spec";
+import type { DopIR, EmitMode, ObixScriptModel } from "obix-spec";
 export interface EmitOptions {
     mode?: EmitMode;
     irImport?: string;

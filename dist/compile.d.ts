@@ -1,4 +1,4 @@
-import type { Diagnostic, DopIR, A11yModel, EmitMode } from "@obinexusltd/obix-spec";
+import type { Diagnostic, DopIR, A11yModel, EmitMode } from "obix-spec";
 export interface CompileOptions {
     path?: string;
     mode?: EmitMode;

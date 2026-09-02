@@ -1,5 +1,5 @@
 {
-  "name": "@obinexusltd/obix-compiler",
+  "name": "obix-compiler",
   "version": "0.2.1",
   "description": "The OBIX compiler: source -> sections -> AST -> semantic AST -> canonical DOP IR -> ES6 emit. Accessibility analysis is a HARD dependency; there is no --no-a11y mode.",
   "license": "MIT",
@@ -20,13 +20,13 @@
     "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@obinexusltd/obix-spec": "0.2.1",
-    "@obinexusltd/obix-ir": "0.2.1",
-    "@obinexusltd/obix-parser": "0.2.1",
-    "@obinexusltd/obix-template": "0.2.1",
-    "@obinexusltd/obix-styles": "0.2.1",
-    "@obinexusltd/obix-accessibility": "0.2.1",
-    "@obinexusltd/obix-validator": "0.2.1"
+    "obix-spec": "0.2.1",
+    "obix-ir": "0.2.1",
+    "obix-parser": "0.2.1",
+    "obix-template": "0.2.1",
+    "obix-styles": "0.2.1",
+    "obix-accessibility": "0.2.1",
+    "obix-validator": "0.2.1"
   },
   "publishConfig": {
     "access": "public"

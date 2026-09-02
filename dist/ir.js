@@ -1,4 +1,4 @@
-import { SPEC_VERSION, LEVEL } from "@obinexusltd/obix-spec";
+import { SPEC_VERSION, LEVEL } from "obix-spec";
 export function buildIR(opts) {
     const { name, script, template, a11y, style } = opts;
     const stateShape = keysOf(script.stateInit);

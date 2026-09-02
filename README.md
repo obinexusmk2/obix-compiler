@@ -1,9 +1,9 @@
-# @obinexusltd/obix-compiler
+# obix-compiler
 
 **The OBIX compiler: `.obix` → canonical DOP IR → ES6.**
 
 ```bash
-npm install @obinexusltd/obix-compiler
+npm install obix-compiler
 ```
 
 Installing this package installs accessibility analysis with it.
@@ -11,7 +11,7 @@ Installing this package installs accessibility analysis with it.
 ## API
 
 ```ts
-import { compile, compileFile } from "@obinexusltd/obix-compiler";
+import { compile, compileFile } from "obix-compiler";
 
 const { ok, ir, code, a11y, diagnostics } = compile(source, { path: "Timer.obix" });
 ```
